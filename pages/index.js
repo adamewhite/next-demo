@@ -20,7 +20,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <Link href='/angular'>
-          <h1 className={styles.title}>Welcome to Vue!</h1>
+          <h1 className={styles.title}>
+            Welcome to the Garden of Earthly Delights!
+          </h1>
         </Link>
 
         <div className={styles.grid}>
