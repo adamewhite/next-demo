@@ -18,7 +18,7 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='/ketilrose.jpg'
+          content='ketilrose.jpg'
         />
         Back to Top
         <link
