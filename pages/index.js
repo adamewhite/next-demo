@@ -18,7 +18,7 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='https://asset.cloudinary.com/dixi5g16o/a483aeb8e405d600893bcce810373c92'
+          content='https://res.cloudinary.com/dixi5g16o/image/upload/v1708465950/ketilrose_teo3rc.jpg'
         />
         Back to Top
         <link
