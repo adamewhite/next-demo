@@ -14,7 +14,7 @@ export default function Home() {
         />
         <meta
           property='og:title'
-          content='iPhone'
+          content='Ketil Slagstad'
         />
         <meta
           property='og:image'
