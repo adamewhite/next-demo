@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-import ketil from '../public/ketilhalo.png';
+import ketil from '../public/ketilphoto.png';
 
 export default function Home() {
   return (
