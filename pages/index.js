@@ -6,7 +6,7 @@ import ketilphoto from '../public/ketilphoto.png';
 import ketilhalo from '../public/ketilhalo.png';
 
 export default function Home() {
-  const [isClicked, click] = useState(true);
+  const [isClicked, click] = useState(false);
 
   const clickPhoto = () => {
     click(!isClicked);
