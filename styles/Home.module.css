@@ -24,6 +24,10 @@
   }
 }
 
+.clickDiv {
+  border: 1px solid green;
+}
+
 .footer {
   display: flex;
   flex: 1;

@@ -1,9 +1,17 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-import ketil from '../public/ketilphoto.png';
+import { useState } from 'react';
+import ketilphoto from '../public/ketilphoto.png';
+import ketilhalo from '../public/ketilhalo.png';
 
 export default function Home() {
+  const [isClicked, click] = useState(true);
+
+  const clickPhoto = () => {
+    click(!isClicked);
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -27,7 +35,13 @@ export default function Home() {
         />
       </Head>
 
-      <Image src={ketil} />
+      <Image
+        src={!isClicked ? ketilphoto : ketilhalo}
+        alt='ketil'
+        onClick={clickPhoto}
+        style={{ 'pointer-events': 'all' }}
+      />
+
       {/* <video
           className='video'
           autoplay
