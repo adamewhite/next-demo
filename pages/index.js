@@ -36,7 +36,7 @@ export default function Home() {
       </Head>
 
       <Image
-        src={!isClicked ? ketilphoto : ketilhalo}
+        src={isClicked ? ketilphoto : ketilhalo}
         alt='ketil'
         onClick={clickPhoto}
         style={{ 'pointer-events': 'all' }}
