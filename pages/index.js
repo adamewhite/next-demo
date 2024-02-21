@@ -24,24 +24,24 @@ export default function Home() {
           property='og:title'
           content='Ketil Slagstad'
         />
-        <meta
+        {/* <meta
           property='og:image'
           content='https://res.cloudinary.com/dixi5g16o/image/upload/v1708467126/ketilpreview_txv2y5.png'
-        />
+        /> */}
         Back to Top
         <link
           rel='icon'
           href='/favicon.ico'
         />
       </Head>
-
+      {/* 
       <Image
         src={isClicked ? ketilphoto : ketilhalo}
         alt='ketil'
         onClick={clickPhoto}
         style={{ 'pointer-events': 'all' }}
-      />
-
+      /> */}
+      <h1>KETIL SLAGSTAD</h1>
       {/* <video
           className='video'
           autoplay
