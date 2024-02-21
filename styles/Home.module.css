@@ -24,8 +24,8 @@
   }
 }
 
-.clickDiv {
-  border: 1px solid green;
+.container h1 {
+  letter-spacing: 1.5px;
 }
 
 .footer {
