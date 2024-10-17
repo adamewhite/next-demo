@@ -34,13 +34,13 @@ export default function Home() {
           href='/favicon.ico'
         />
       </Head>
-      {/* 
+
       <Image
         src={isClicked ? ketilphoto : ketilhalo}
         alt='ketil'
         onClick={clickPhoto}
         style={{ 'pointer-events': 'all' }}
-      /> */}
+      />
       <h1>KETIL SLAGSTAD</h1>
       {/* <video
           className='video'
