@@ -41,7 +41,7 @@ export default function Home() {
         onClick={clickPhoto}
         style={{ 'pointer-events': 'all' }}
       />
-      <h1>KETIL SLAGSTAD</h1>
+      {/* <h1>KETIL SLAGSTAD</h1> */}
       {/* <video
           className='video'
           autoplay
