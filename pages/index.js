@@ -35,13 +35,13 @@ export default function Home() {
         />
       </Head>
 
-      <Image
+      {/* <Image
         src={isClicked ? ketilphoto : ketilhalo}
         alt='ketil'
         onClick={clickPhoto}
         style={{ 'pointer-events': 'all' }}
-      />
-      {/* <h1>KETIL SLAGSTAD</h1> */}
+      /> */}
+      <h1>KETIL SLAGSTAD</h1>
       {/* <video
           className='video'
           autoplay
